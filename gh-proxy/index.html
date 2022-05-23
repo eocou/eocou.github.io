@@ -16,10 +16,6 @@
         box-sizing: border-box;
     }
 
-    p {
-        word-break: break-all;
-    }
-
     @media (max-width: 500px) {
         h1 {
             margin-top: 80px;
@@ -83,19 +79,6 @@
         margin: 30px 0;
     }
 
-    .tips > p:first-child::before {
-        position: absolute;
-        left: -3em;
-        content: 'PS：';
-        color: #7b7b7b
-    }
-
-    .example > p:first-child::before {
-        position: absolute;
-        left: -7.5em;
-        content: '合法输入示例：';
-        color: #7b7b7b
-    }
 </style>
 <head>
     <meta charset="utf-8">
@@ -111,10 +94,6 @@
     <title>GitHub 文件加速</title>
 </head>
 <body class="flex">
-<a style="position: absolute;top: 0;right: 0;" href="https://github.com/eocou/gh-proxy"><img width="149" height="149" referrerPolicy="no-referrer"
-                                                                                               src="https://raw.githubusercontent.com/eocou/eocou.github.io/main/gh-proxy/img/0.png"
-                                                                                               alt="Fork me on GitHub"
-                                                                                               data-recalc-dims="1"></a>
 <h1 style="margin-bottom: 50px"><img src="https://raw.githubusercontent.com/eocou/eocou.github.io/main/gh-proxy/img/1.png" style="width: 1.5em;margin-right: .2em;vertical-align: bottom;">GitHub 文件加速</h1>
 <form action="./" method="get" style="padding-bottom: 40px" target="_blank" class="flex" onsubmit="toSubmit(event)">
     <label class="block" style="width: fit-content">
